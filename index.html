@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>store project</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <button class="sidebar-toggle">
+      <i> ☰</i>
+    </button>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Store cart</h2>
+        <button class="close-btn">x</button>
+      </div>
+      <!-- cart -->
+
+      <aside class="cart">
+        <header>
+          <h3 class="text-slanted">Items ordered</h3>
+        </header>
+        <!-- cart items -->
+
+        <div class="cart-items"></div>
+        <!-- footer -->
+        <footer>
+          <h3 class="cart-total text-slanted">total : $0</h3>
+          <button class="cart-checkout-btn">Checkout</button>
+        </footer>
+      </aside>
+    </aside>
+    <section class="store">
+      <div class="title">
+        <h1>Our Store</h1>
+        <div class="underline"></div>
+      </div>
+      <div class="btn-container">
+        <button class="filter-btn" type="button" data-id="gowns">gowns</button
+        ><button class="filter-btn" type="button" data-id="wig">wig</button>
+        <button class="filter-btn" type="button" data-id="bratop">
+          bratop
+        </button>
+        <button class="filter-btn" type="button" data-id="jeans">jeans</button>
+      </div>
+      <div class="store-items">
+        <article class="store-items-details">
+          <img
+            src="https://th.bing.com/th/id/OIP.2r_3pR_W6R9vgIY15zh-NwHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain"
+            class="photo"
+            alt=" item photo"
+          />
+          <div class="item-details">
+            <header>
+              <h4>okayzhie shoe</h4>
+              <h4 class="price">$100k</h4>
+            </header>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
